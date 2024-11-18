@@ -29,12 +29,7 @@ module.exports = {
     "./**/*.{html,js}",
     "!./node_modules/**/*.*"],
 
-  theme: {
-    extend: {},
-  },
-  plugins: [],
 }
----------------------
 
 
 (add in file styles.css) ->
