@@ -20,8 +20,7 @@ npm install -D tailwindcss
 npx tailwindcss init
 
 
-(add in flie tailwind.config.js) ->
----------------------
+(add in flie tailwind.config.js)
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -32,12 +31,10 @@ module.exports = {
 }
 
 
-(add in file styles.css) ->
----------------------
+(add in file styles.css)
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
----------------------
 
 
 (RUN) npx tailwindcss -i ./styles.css -0 ./result.css --watch
