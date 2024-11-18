@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: 'PopinsR';
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'PopinsM';
+    src: url('./fonts/Poppins-Medium.ttf');
+}
+
+@font-face{
+    font-family: 'PopinsB';
+    src: url('./fonts/Poppins-Black.ttf');
+}
+
+
+
+
+body{
+    font-family: 'PopinsR';
+}
+

@@ -554,62 +554,59 @@ video {
   display: none;
 }
 
-.visible {
-  visibility: visible;
+.container {
+  width: 100%;
 }
 
-.collapse {
-  visibility: collapse;
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
 }
 
-.relative {
-  position: relative;
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
 
-.block {
-  display: block;
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
 }
 
-.flex {
-  display: flex;
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
 }
 
-.table {
-  display: table;
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
 }
 
-.contents {
-  display: contents;
+@font-face{
+  font-family: 'PopinsR';
+
+  src: url('./fonts/Poppins-Regular.ttf');
 }
 
-.hidden {
-  display: none;
+@font-face{
+  font-family: 'PopinsM';
+
+  src: url('./fonts/Poppins-Medium.ttf');
 }
 
-.border-collapse {
-  border-collapse: collapse;
+@font-face{
+  font-family: 'PopinsB';
+
+  src: url('./fonts/Poppins-Black.ttf');
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+body{
+  font-family: 'PopinsR';
 }
 
-.resize {
-  resize: both;
-}
-
-.border {
-  border-width: 1px;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
-}
-
-.outline {
-  outline-style: solid;
-}
