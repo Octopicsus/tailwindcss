@@ -10,39 +10,212 @@
 
 <body>
 
-    <header>
-        <div class="header-wrapper container">
-            <img src="/img/brand-logo.svg" alt="brand-logo">
-            <nav>
-                <ul>
-                    <li class="my-custom-color1">CATALOGUE</li>
-                    <li>FASHION</li>
-                    <li>FAVOURITE</li>
-                    <li>LIFESTYLE</li>
-                    <li>SIGN UP</li>
-                </ul>
-            </nav>
-        </div>
+    <header class="flex justify-center mx-3 mb-6 max-[480px]:mb-2">
+        <nav class="flex container items-center justify-between mt-6 mb-2 max-sm:mt-2">
+            <img class="max-sm:w-32" src="/img/brand-logo.svg" alt="fashion logo">
+            <ul class="flex gap-9 max-xl:hidden">
+                <li><a class="hover:text-gray-500" href="">CATALOGUE</a></li>
+                <li><a class="hover:text-gray-500" href="">FASHION</a></li>
+                <li><a class="hover:text-gray-500" href="">FAVOURITE</a></li>
+                <li><a class="hover:text-gray-500" href="">LIFESTYLE</a></li>
+                <li><a class="px-4 py-2 bg-black text-white rounded-lg" href="">SIGN UP</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
 
-        <div class="main-message">
-            <div class="main-message-wrapper">
-                <div class="message-title">
-                    <h1>
-                        LET’S
+    <main class="grid justify-center mx-3">
+
+        <div
+            class="main-message flex container bg-stone-100 rounded-3xl mt-10 bg-main-banner-img overflow-hidden bg-no-repeat bg-right-bottom max-[480px]:bg-contain max-[480px]:mt-3">
+            <div class="main-message-wrapper pt-20 pb-20 max-[480px]:pt-8">
+                <div class="message-title flex-col pl-28 max-[480px]:px-3">
+                    <h2 class="w-1/4 ">
+                        <span>
+                            <span
+                                class="before:block before:absolute before:-inset-1 before:-skew-y-3 relative before:bg-amber-50 inline-block  text-black">
+                                <span class="relative">LET’S</span></span>
+                        </span>
                         EXPLORE
-                        <span>UNIQUE</span>
+                        <span
+                            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-amber-200 relative inline-block text-black"><span
+                                class="relative">UNIQUE</span></span>
                         CLOTHES.
-                    </h1>
-                    <h5>Live for Influential and Innovative fashion!</h5>
-                    <button>Shop Now</button>
+                    </h2>
+                    <h5 class="mt-8 block w-1/2">Live for Influential and Innovative fashion!</h5>
+                    <button
+                        class="rounded-lg mt-10 px-10 py-4 bg-black text-white max-[480px]:px-6 max-[480px]:py-2">Shop
+                        Now</button>
                 </div>
             </div>
         </div>
 
+        <div
+            class="partners flex justify-center py-10 mt-14 mb-20 bg-amber-200 max-[1280px]:rounded-2xl max-[720px]:mt-5">
+            <div
+                class="flex justify-around container max-[1280px]:grid max-[1280px]:grid-cols-3 max-[720px]:grid-cols-2 max-[420px]:grid-cols-1 gap-y-10">
+                <img class="mix-blend-multiply justify-self-center" src="/img/h&m-logo.png" alt="h&m">
+                <img class="mix-blend-multiply justify-self-center" src="/img/obey-logo.png" alt="obey">
+                <img class="mix-blend-multiply justify-self-center" src="/img/shopify-logo.png" alt="shopify">
+                <img class="mix-blend-multiply justify-self-center" src="/img/lacoste-logo.png" alt="lacoste">
+                <img class="mix-blend-multiply justify-self-center" src="/img/levis-logo.png" alt="levis">
+                <img class="mix-blend-multiply justify-self-center" src="/img/amazon-logo.png" alt="amazone">
+            </div>
+        </div>
+
+        <div class="arrivals container mt-20 max-[420px]:mt-6">
+            <h3 class="mb-10">NEW ARRIVALS</h3>
+            <div class="flex flex-wrap justify-between gap-y-14">
+
+                <div class="relative">
+                    <div
+                        class="bg-card-01-img bg-center bg-no-repeat bg-cover card-custom01-size rounded-2xl bg-slate-400">
+                    </div>
+                    <div class="relative mt-8">
+                        <h6>Hoodies & Sweetshirt</h6>
+                        <span class="text-2xl text-gray-500">Explore Now!</span>
+                        <img class="absolute top-6 right-0" src="/img/Arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div
+                        class="bg-card-02-img bg-center bg-no-repeat bg-cover card-custom01-size rounded-2xl bg-slate-400">
+                    </div>
+                    <div class="relative mt-8">
+                        <h6>Coats & Parkas</h6>
+                        <span class="text-2xl text-gray-500">Explore Now!</span>
+                        <img class="absolute top-6 right-0" src="/img/Arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div
+                        class="bg-card-03-img bg-center bg-no-repeat bg-cover card-custom01-size rounded-2xl bg-slate-400">
+                    </div>
+                    <div class="relative mt-8">
+                        <h6>Tees & T-Shirt</h6>
+                        <span class="text-2xl text-gray-500">Explore Now!</span>
+                        <img class="absolute top-6 right-0" src="/img/Arrow.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="payday brand-color mt-20 max-[1280px]:rounded-2xl max-[720px]:mt-5 overflow-hidden ">
+            <div
+                class="payday container flex justify-end bg-sale-banner-img bg-no-repeat bg-contain bg-left-bottom max-[720px]:bg-center-botton max-[1280px]:bottom-0">
+                <div class="pt-40 pb-32 ml-auto pr-20 max-[720px]:pr-0 max-[720px]:pt-10 max-[720px]:mx-auto">
+                    <h1><span>
+                            <span
+                                class="before:block before:absolute before:-inset-1 before:-skew-y-3 relative before:bg-amber-50 inline-block text-black">
+                                <span class="relative">PAYDAY</span></span>
+                        </span><br>SALE NOW</h1>
+                    <p class="descr-01 mt-14">Spend minimal $100 get 30% off
+                        voucher code for your next purchase</p>
+                    <p class="font-bold descr-01 mt-9">1 June - 10 June 2021</p>
+                    <p class="descr-01 mt-4">*Terms & Conditions apply</p>
+                    <button
+                        class="rounded-lg mt-10 px-10 py-4 bg-black text-white max-[480px]:px-6 max-[480px]:py-2">Shop
+                        Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrivals container mt-20 max-[420px]:mt-6">
+            <h3 class="mb-10">Young’s Favourite</h3>
+            <div class="flex flex-wrap justify-between gap-y-14">
+
+                <div class="relative">
+                    <div
+                        class="bg-card-04-img bg-center bg-no-repeat bg-cover card-custom02-size rounded-2xl bg-slate-400">
+                    </div>
+                    <div class="relative mt-8">
+                        <h6>Hoodies & Sweetshirt</h6>
+                        <span class="text-2xl text-gray-500">Explore Now!</span>
+                        <img class="absolute top-6 right-0" src="/img/Arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div
+                        class="bg-card-05-img bg-center bg-no-repeat bg-cover card-custom02-size rounded-2xl bg-slate-400">
+                    </div>
+                    <div class="relative mt-8">
+                        <h6>Coats & Parkas</h6>
+                        <span class="text-2xl text-gray-500">Explore Now!</span>
+                        <img class="absolute top-6 right-0" src="/img/Arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-20 ">
+            <div
+                class="bg-app-banner-img bg-no-repeat bg-contain bg-right py-40 pl-50 mr-36 hide-img max-[720px]:mr-0 max-[720px]:pl-0 max-[720px]:py-6">
+                <div class="descr-02 max-[720px]:mx-auto">
+                    <h3 class="max-[720px]:text-center">DOWNLOAD APP &
+                        GET THE VOUCHER!</h3>
+                    <p class="mt-10 max-[720px]:text-center text-2xl">Get 30% off for first transaction using
+                        Rondovision mobile app for now.</p>
+                    <div class="flex mt-14 max-[720px]:justify-between max-[720px]:gap-2">
+                        <img class="mr-6 logo-size-custom max-[720px]:mr-0" src="/img/app-store-logo.png" alt="">
+                        <img class="logo-size-custom" src="/img/google-store-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" mt-20 brand-color container py-32 max-[420px]:py-10">
+            <div class="descr-03 mx-auto">
+                <h3 class="text-center text-white">JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h3>
+                <p class="text-center text-white mt-8">Type your email down below and be young wild generation</p>
+                <form
+                    class="mx-auto box-border input-email-size bg-white flex mt-8 justify-between align-middle rounded-lg overflow-hidden">
+                    <input type="text" placeholder="Add your email here">
+                    <button type="submit"
+                        class="rounded-lg px-12 py-2 my-2 mr-2 bg-black text-white max-[480px]:px-6 max-[480px]:py-2">SEND</button>
+                </form>
+            </div>
+        </div>
     </main>
+
+    <footer class="flex justify-center bg-black">
+        <div class="py-32 flex max-[720px]:flex-col container justify-between mx-10 max-[720px]:py-14">
+            <div class="flex flex-col max-[720px]:mb-20">
+                <img src="/img/FASHION.svg" alt="brand-logo" class="mb-8">
+                <p class="text-gray-400 descr-04 mb-6">Complete your style with awesome clothes from us.</p>
+                <div class="flex gap-3 mt-auto">
+                    <img src="/img/social-logo-facebook.svg" alt="facebook">
+                    <img src="/img/social-logo-insta.svg" alt="insta">
+                    <img src="/img/social-logo-twiter.svg" alt="x">
+                    <img src="/img/social-logo-linkedin.svg" alt="linkedin">
+                </div>
+            </div>
+            <div class="flex text-gray-400 gap-20 max-[1280px]:flex-col">
+                <div class="flex flex-col gap-6">
+                    <p class="text-white">Company</p>
+                    <p>About</p>
+                    <p>Contact us</p>
+                    <p>Support</p>
+                    <p>Careers</p>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <p class="text-white">Quick Link</p>
+                    <p>Share Location</p>
+                    <p>Orders Tracking</p>
+                    <p>Size Guide</p>
+                    <p>FAQs</p>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <p class="text-white">Legal</p>
+                    <p>Terms & conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
