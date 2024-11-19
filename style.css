@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: "PopinsR";
-  src: url("./fonts/Poppins-Regular.ttf");
+  src: url("/tailwindcss/fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: "PopinsM";
-  src: url("./fonts/Poppins-Medium.ttf");
+  src: url("/tailwindcss/fonts/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: "PopinsB";
-  src: url("./fonts/Poppins-Black.ttf");
+  src: url("/tailwindcss/fonts/Poppins-Black.ttf");
 }
 
 h1 {

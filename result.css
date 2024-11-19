@@ -604,6 +604,11 @@ video {
   top: 1.5rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -617,11 +622,6 @@ video {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
 }
 
 .mb-10 {
@@ -818,35 +818,35 @@ video {
 }
 
 .bg-app-banner-img {
-  background-image: url('/img/mobile-app.png');
+  background-image: url('/tailwindcss/img/mobile-app.png');
 }
 
 .bg-card-01-img {
-  background-image: url('/img/img-01.png');
+  background-image: url('/tailwindcss/tailwindcss/img/img-01.png');
 }
 
 .bg-card-02-img {
-  background-image: url('/img/img-02.png');
+  background-image: url('/tailwindcss/img/img-02.png');
 }
 
 .bg-card-03-img {
-  background-image: url('/img/img-03.png');
+  background-image: url('/tailwindcss/img/img-03.png');
 }
 
 .bg-card-04-img {
-  background-image: url('/img/img-04.png');
+  background-image: url('/tailwindcss/img/img-04.png');
 }
 
 .bg-card-05-img {
-  background-image: url('/img/img-05.png');
+  background-image: url('/tailwindcss/img/img-05.png');
 }
 
 .bg-main-banner-img {
-  background-image: url('/img/brand-img.png');
+  background-image: url('/tailwindcss/img/brand-img.png');
 }
 
 .bg-sale-banner-img {
-  background-image: url('/img/img-banner.png');
+  background-image: url('/tailwindcss/img/img-banner.png');
 }
 
 .bg-contain {
@@ -985,19 +985,19 @@ video {
 @font-face {
   font-family: "PopinsR";
 
-  src: url("./fonts/Poppins-Regular.ttf");
+  src: url("/tailwindcss/fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: "PopinsM";
 
-  src: url("./fonts/Poppins-Medium.ttf");
+  src: url("/tailwindcss/fonts/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: "PopinsB";
 
-  src: url("./fonts/Poppins-Black.ttf");
+  src: url("/tailwindcss/fonts/Poppins-Black.ttf");
 }
 
 h1 {
@@ -1227,20 +1227,16 @@ input:focus {
     margin-right: auto;
   }
 
+  .max-\[720px\]\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
   .max-\[720px\]\:mr-0 {
     margin-right: 0px;
   }
 
   .max-\[720px\]\:mt-5 {
     margin-top: 1.25rem;
-  }
-
-  .max-\[720px\]\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
-  .max-\[720px\]\:grid {
-    display: grid;
   }
 
   .max-\[720px\]\:grid-cols-2 {
@@ -1251,30 +1247,22 @@ input:focus {
     flex-direction: column;
   }
 
-  .max-\[720px\]\:justify-center {
-    justify-content: center;
-  }
-
   .max-\[720px\]\:justify-between {
     justify-content: space-between;
-  }
-
-  .max-\[720px\]\:justify-items-stretch {
-    justify-items: stretch;
   }
 
   .max-\[720px\]\:gap-2 {
     gap: 0.5rem;
   }
 
-  .max-\[720px\]\:py-6 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-
   .max-\[720px\]\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .max-\[720px\]\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .max-\[720px\]\:pl-0 {
